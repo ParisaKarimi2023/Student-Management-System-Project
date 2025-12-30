@@ -1,4 +1,4 @@
-# student grade management system
+# Student Grade Management System
 ## List of Contents
 1.	System requirements analysis
 2.	Database design
@@ -41,7 +41,7 @@ Considering that each role has specific tasks, the users of these roles are also
 a management panel should be considered for each role, in which the user of the role will be limited to performing the tasks of the role. And he can log in and log out of his management panel.
 ------------------------------------
 ## Database design:
-Considering that the data entered in the application is supposed to be stored permanently, a database must be designed to store the data permanently.
+#### Considering that the data entered in the application is supposed to be stored permanently, a database must be designed to store the data permanently.
 Designing database tables and communicating between them:
 According to the analysis of the application requirements, these tables are conceivable for data storage:
 #### 1- users table: maintaining user data
