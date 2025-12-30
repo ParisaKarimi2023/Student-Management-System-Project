@@ -59,9 +59,10 @@ Assets Folder: contains css, js, images, ...
 ##Common Folder: shared php files between the admin folder (source related to Admin and Professor panel features) and student folder (source related to Student panel features)
 ##Filters Folder: It contains source code files whose job is to control access to different parts of the application.
 ----------------------------------------------------
-##References
-https://portswigger.net/web-security/cross-site-scripting
-https://portswigger.net/web-security/sql-injection
+<ul>References</ul>
+<li>https://portswigger.net/web-security/cross-site-scripting</li>
+<li>https://portswigger.net/web-security/sql-injection</li>
+n
 
 
 
