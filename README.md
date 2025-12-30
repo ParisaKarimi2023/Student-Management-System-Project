@@ -51,7 +51,7 @@ According to the analysis of the application requirements, these tables are conc
 5- course_student table: because there is a many-to-many relationship between the courses and students table, we considered this table to store the data of this relationship.
 6- grade_appeal table: maintaining grade appeal data.
 -------------------------------------------------
-## Application Structure :
+>Application Structure :
 ``Admin Folder:`` The admin folder contains the source codes related to the implementation of the features of the Admin panel and the Professor panel.
 ``Student Folder:`` contains the source codes related to the implementation of the features of the Student panel.
 ``Assets Folder:`` contains css, js, images, ...
