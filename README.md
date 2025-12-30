@@ -45,7 +45,9 @@ Considering that the data entered in the application is supposed to be stored pe
 Designing database tables and communicating between them:
 According to the analysis of the application requirements, these tables are conceivable for data storage:
 1- users table: maintaining user data
+--
 2- roles table: maintaining role data
+--
 3- courses table: maintaining course data
 4- students table: maintaining student data
 5- course_student table: because there is a many-to-many relationship between the courses and students table, we considered this table to store the data of this relationship.
@@ -55,14 +57,18 @@ According to the analysis of the application requirements, these tables are conc
 ``Admin Folder:`` The admin folder contains the source codes related to the implementationof the features of the Admin panel and the Professor panel.
 ---
 ``Student Folder:`` contains the source codes related to the implementation of the features of the Student panel.
+--
 ``Assets Folder:`` contains css, js, images, ...
+--
 ``Includes Folder :`` contains the most used php filesthat are used throughout the project
+--
 ``Common Folder:`` shared php files between the admin folder(source related to Admin and Professor panel features) and student folder (source related to Student panel features)
+--
 ``Filters Folder:`` It contains source code files whose job is to control access to different parts of the application.
 ----------------------------------------------------
-<ul>References</ul>
-<li>https://portswigger.net/web-security/cross-site-scripting</li>
-<li>https://portswigger.net/web-security/sql-injection</li>
+# References
+1 . https://portswigger.net/web-security/cross-site-scripting
+2 . https://portswigger.net/web-security/sql-injection
 
 
 
