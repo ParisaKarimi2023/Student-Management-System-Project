@@ -38,7 +38,7 @@ we need to expand the initial design of the application and add facilities to it
 #### 1- Viewing the list of grades of the courses he has chosen.
 #### 2- Send grade appeal request
 #### Considering that each role has specific tasks, the users of these roles are also limited to the tasks of the same role. To achieve this,
-a management panel should be considered for each role, in which the user of the role will be limited to performing the tasks of the role. And he can log in and log out of his management panel.
+#### a management panel should be considered for each role, in which the user of the role will be limited to performing the tasks of the role. And he can log in and log out of his management panel.
 ------------------------------------
 ## Database design:
  Considering that the data entered in the application is supposed to be stored permanently, a database must be designed to store the data permanently.
