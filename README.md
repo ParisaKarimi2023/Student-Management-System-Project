@@ -52,8 +52,8 @@ According to the analysis of the application requirements, these tables are conc
 6- grade_appeal table: maintaining grade appeal data.
 -------------------------------------------------
 ## Application Structure :
-##Admin Folder: The admin folder contains the source codes related to the implementation of the features of the Admin panel and the Professor panel.
-##Student Folder: contains the source codes related to the implementation of the features of the Student panel.
+--Admin Folder--: The admin folder contains the source codes related to the implementation of the features of the Admin panel and the Professor panel.
+--Student Folder--: contains the source codes related to the implementation of the features of the Student panel.
 Assets Folder: contains css, js, images, ...
 ##Includes Folder : contains the most used php files that are used throughout the project
 ##Common Folder: shared php files between the admin folder (source related to Admin and Professor panel features) and student folder (source related to Student panel features)
@@ -62,7 +62,7 @@ Assets Folder: contains css, js, images, ...
 <ul>References</ul>
 <li>https://portswigger.net/web-security/cross-site-scripting</li>
 <li>https://portswigger.net/web-security/sql-injection</li>
-n
+
 
 
 
