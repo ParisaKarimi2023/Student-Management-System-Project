@@ -1,4 +1,4 @@
-# Technical report of student grade management system
+# student grade management system
 ## List of Contents
 1.	System requirements analysis
 2.	Database design
