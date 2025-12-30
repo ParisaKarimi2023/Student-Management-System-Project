@@ -35,8 +35,8 @@ we need to expand the initial design of the application and add facilities to it
 3-	handle the student grade appeal request.
 --------------------------------------------
 ## Tasks of Student role:
-1- Viewing the list of grades of the courses he has chosen.
-2- Send grade appeal request
+### 1- Viewing the list of grades of the courses he has chosen.
+### 2- Send grade appeal request
 Considering that each role has specific tasks, the users of these roles are also limited to the tasks of the same role. To achieve this,
 a management panel should be considered for each role, in which the user of the role will be limited to performing the tasks of the role. And he can log in and log out of his management panel.
 ------------------------------------
@@ -44,14 +44,12 @@ a management panel should be considered for each role, in which the user of the 
 Considering that the data entered in the application is supposed to be stored permanently, a database must be designed to store the data permanently.
 Designing database tables and communicating between them:
 According to the analysis of the application requirements, these tables are conceivable for data storage:
-1- users table: maintaining user data
---
-2- roles table: maintaining role data
---
-3- courses table: maintaining course data
-4- students table: maintaining student data
-5- course_student table: because there is a many-to-many relationship between the courses and students table, we considered this table to store the data of this relationship.
-6- grade_appeal table: maintaining grade appeal data.
+### 1- users table: maintaining user data
+### 2- roles table: maintaining role data
+### 3- courses table: maintaining course data
+### 4- students table: maintaining student data
+### 5- course_student table: because there is a many-to-many relationship between the courses and students table, we considered this table to store the data of this relationship.
+### 6- grade_appeal table: maintaining grade appeal data.
 -------------------------------------------------
 ## Application Structure :
 ### ``Admin Folder:`` The admin folder contains the source codes related to the implementationof the features of the Admin panel and the Professor panel.
@@ -61,9 +59,9 @@ According to the analysis of the application requirements, these tables are conc
 ### ``Common Folder:`` shared php files between the admin folder(source related to Admin and Professor panel features) and student folder (source related to Student panel features)
 ### ``Filters Folder:`` It contains source code files whose job is to control access to different parts of the application.
 ----------------------------------------------------
-# References
-https://portswigger.net/web-security/cross-site-scripting
-https://portswigger.net/web-security/sql-injection
+### References
+#### https://portswigger.net/web-security/cross-site-scripting
+#### https://portswigger.net/web-security/sql-injection
 
 
 
