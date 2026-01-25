@@ -17,7 +17,7 @@ e.	DOM-based XSS Attack
 f.	Prevent from DOM-based XSS attack
 --------------------------------
 ## System requirements analysis :
-Purpose: The purpose is  designing a web-based application where professors can enter their students' grades into the application and manage them.
+Purpose: The purpose is  designing a web-based application where professors can enter their students' grades into the application and manage them .
 And in the next step, our goal is to attack the application with sql injection attack and xss attack. To carry out these attacks,
 we need to expand the initial design of the application and add facilities to it so that we can carry out attacks on those facilities. For this purpose, we considered three roles in the application :
 1.	Admin role
